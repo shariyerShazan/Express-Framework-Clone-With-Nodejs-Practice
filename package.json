@@ -1,0 +1,41 @@
+{
+  "name": "blazekit",
+  "version": "2.0.0",
+  "description": "A blazing-fast, production-grade Express.js-like framework built from scratch using raw Node.js — zero external dependencies.",
+  "main": "index.js",
+  "bin": {
+    "blazekit": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node examples/sample-app.js",
+    "dev": "node bin/cli.js start --watch",
+    "test": "node tests/run.js"
+  },
+  "keywords": [
+    "framework",
+    "express",
+    "node",
+    "http",
+    "routing",
+    "middleware",
+    "cli",
+    "web",
+    "api",
+    "rest"
+  ],
+  "author": "Shazan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "core/",
+    "middlewares/",
+    "utils/",
+    "cli/",
+    "bin/",
+    "templates/",
+    "index.js",
+    "README.md"
+  ]
+}
